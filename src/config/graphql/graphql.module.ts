@@ -3,7 +3,7 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
 import { Module } from '@nestjs/common';
 import { APP_FILTER } from '@nestjs/core';
 import { GraphQLModule } from '@nestjs/graphql';
-import { HttpExceptionFilter } from '../common/filter';
+import { HttpExceptionFilter } from '../shared/filter';
 
 @Module({
   imports: [
